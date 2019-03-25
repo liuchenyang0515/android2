@@ -2,7 +2,8 @@
     android:id="@+id/tv_name"
     android:layout_width="match_parent"
     android:layout_height="50dp"
-    android:singleLine="true"
+    android:maxLines="1"
     android:gravity="center"
     android:textSize="17sp"
     android:textColor="#0000ff" />
+<!-- singleLine已经过时 -->
